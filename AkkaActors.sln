@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkkaActors", "AkkaActors\AkkaActors.csproj", "{03C90FCC-1665-4A9C-BB6F-52740555D5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaActors.Simulator", "AkkaActors.Simulator\AkkaActors.Simulator.csproj", "{1DCCA653-954E-4F0A-BBD0-5354CD066E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C90FCC-1665-4A9C-BB6F-52740555D5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C90FCC-1665-4A9C-BB6F-52740555D5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C90FCC-1665-4A9C-BB6F-52740555D5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C90FCC-1665-4A9C-BB6F-52740555D5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCCA653-954E-4F0A-BBD0-5354CD066E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCCA653-954E-4F0A-BBD0-5354CD066E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCCA653-954E-4F0A-BBD0-5354CD066E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCCA653-954E-4F0A-BBD0-5354CD066E58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84D4C106-5963-430B-B4C7-46F38E4CB623}
+	EndGlobalSection
+EndGlobal

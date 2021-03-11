@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div><h2>Matches</h2></div>
+      <div *ngFor="let match of matches">
+        <div class="row text-center">
+          <div class="col-12">{{match.started ? (match.ended ? 'finita' : 'in corso') : 'non iniziata'}}</div>
+          <div class="col-6">
+            <div><h3>{{match.team1}}</h3></div>
+            <div><h4>{{match.team1Score}}</h4></div>
+          </div>
+          <div class="col-6">
+            <div><h3>{{match.team2}}</h3></div>
+            <div><h4>{{match.team2Score}}</h4></div>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div><h2>Standings</h2></div>
+      <div *ngFor="let teamStanding of teamStandings">
+        <div class="row">
+          <div class="col-9">
+            <h3>{{teamStanding.team}}</h3>
+          </div>
+          <div class="col-3 text-right">
+            <h4>{{teamStanding.points}}</h4>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
